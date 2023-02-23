@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*
+======== context ======================================
+
+Last Updated:20180528
+Summary:基本用CSSの読み込み
+
+=======================================================
+*/
+
+@import "/common4/css/reset.css"; /* デフォルト設定 CSS */
+@import "/common4/css/layout.css"; /* 基本レイアウト CSS */
+@import "/common4/css/parts.css"; /* parts.css各要素別デザイン CSS*/
+
+/*　各個別CSS */
+@import "/common4/css/index.css"; /* サイトトップ CSS */
+@import "/common4/css/minister.css"; /* 大臣関連 CSS */
+@import "/common4/css/news.css"; /* ニュース CSS */
+@import "/common4/css/consumer.css"; /* 消費者 CSS */
+@import "/common4/css/zei-cho.css"; /* 税調 CSS */
+@import "/common4/css/council.css"; /* 審議会・懇談会 CSS */
+
+/* レスポンシブ用CSS */
+@import "/common4/css/r_layout.css"; /* 基本レイアウト CSS */
+@import "/common4/css/r_parts.css"; /* 各要素別デザイン CSS */
+
+/* レスポンシブ用CSS - 個別 */
+@import "/common4/css/r_zei-cho.css"; /* 税調 CSS */
+@import "/common4/css/r_council.css"; /* 審議会・懇談会 CSS */
